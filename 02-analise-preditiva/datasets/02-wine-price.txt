@@ -1,0 +1,7 @@
+Year: year in which grapes were harvested to make wine.
+Price: logarithm of the average market price for Bordeaux vintages according to 1990–1991 auctions.18 This is a nonlinear transformation of the response made to linearize the response.
+WinterRain: winter rainfall (in mm).
+AGST: Average Growing Season Temperature (in Celsius degrees).
+HarvestRain: harvest rainfall (in mm).
+Age: age of the wine measured as the number of years stored in a cask.
+FrancePop: population of France at Year (in thousands).

@@ -1,0 +1,11 @@
+• ID: um identificador único para cada observação. 
+• Date: a data em que o crime ocorreu 
+• LocationDescription: a localização em que crime ocorreu 
+• Arrest: se o ladrão foi ou não detido pelo crime (VERDADEIRO se houve detenção e FALSO se não foi detido) 
+• Domestic: se o crime é ou não um crime doméstico 
+• Beat: a área em que o crime ocorreu 
+• District: o distrito policial em que o crime ocorreu. Cada distrito é composto de muitas beats e é definido pelo Departamento de Polícia de Chicago. 
+• CommunityArea: a área da comunidade em que o crime ocorreu. Desde a década de 1920, Chicago foi dividida entre as chamadas "áreas comunitárias", das quais existem atualmente 77. As áreas das comunidades foram criadas na tentativa de criar regiões socialmente homogêneas. 
+• Year: o ano em que o crime ocorreu. 
+• Latitude: a latitude em que o crime ocorreu. 
+• Longitude: a longitude do local em que o crime ocorreu.
