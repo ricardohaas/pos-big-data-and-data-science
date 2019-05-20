@@ -1,3 +1,0 @@
-Pessoal, Peço a vocês criem um preditor do preço do vinho usando regressão linear e o dataset que enviei pra vocês (02-wine-price.csv).
-
-Lembrem de separar o conjunto de treinamento e testes e vamos ver quem consegue a melhor previsão. 
