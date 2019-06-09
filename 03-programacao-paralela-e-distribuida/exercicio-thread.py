@@ -8,14 +8,12 @@ import os
 """
 O numero a ser verificado eh dividido em N partes para ser processado por varias threads
 
-Ao encontrar um divisor, a thread escreve ele em um arquivo
+Ao encontrar um divisor, a thread escreve em uma varvariaveliável global
 
-Em cada thread ao identificar que o arquivo existe ou terminar os itens a serem processados,
+Em cada thread, ao identificar que o o divisor já foi encontrado ou terminar os itens a serem processados,
 ela eh finalizada
 
-No final da execucao o processo principal verifica se existe o arquivo, indicando que um divisor foi encontrado
-
-O arquivo poderia se substituído por uma variável global
+No final da execucao o processo principal verifica a variavel global, indicando que um divisor foi encontrado
 
 """
 
