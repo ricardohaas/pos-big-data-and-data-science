@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May 24 20:04:46 2019
+
+@author: rhaas
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+
+X = [0.5, 2.2, 2.0]
+y = [2.0, 2.5, 1.4]
+
+alpha = 0.01
+
+w0 = 0.1
+w1 = 0.1
+
+#hipótese
+def y_hat(x, w0, w1):
+    return w0 + w1*x
+
+retorno = y_hat(1.5,w0,w1)
+
+def plot_line(X, y, w0, w1):
+    x_values = [i for i in range(int(min(X))-1,int(max(X))+2)]
+    y_values = [y_hat(x, w0, w1) for x in x_values]
+    plt.plot(x_values,y_values,'r')
+    plt.plot(X,y,'bo')
+    
+plot_line(X,y,w0,w1)
+
+#media erro quadrado
+#def MEQ

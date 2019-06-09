@@ -1,0 +1,5 @@
+java syncronize method
+
+minimizar trecho em lock
+
+starvation

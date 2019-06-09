@@ -1,0 +1,60 @@
+FYI Olá Bruno!  Conforme comentei contigo segue algumas informações, pode
+deixar com os professores e alunos.
+
+Conforme combinamos na visita de ontém na IBM, segue informações do nosso
+programa IBM Academic Initiative, como os promo codes da nossa plataforma IBM
+Cloud, acesso as API's de Watson de forma gratuita, e outros temas, como SPSS
+por exemplo, para uso Acadêmico.
+
+
+
+ (See attached file: IBM_Academic_v1.pptx)(See attached file: How to Request an
+IBM Cloud Promo Code (students)Portugues.pptx)
+
+Portal OnTheHub https://onthehub.com/ibm/
+
+Portal para busca de conteúdo das tecnologias IBM, download de SW, promo code
+para uso da nossa plataforma IBM Cloud, com acesso as API's de Watson, e outros
+temas como Blockchain (este somente para o corpo docente):
+
+Obs.: Primeiramente realizar um cadastro no portal, depois que receber o login
+e senha poderá realizar download de SW's IBM e solicitar os promo codes.
+
+https://ibm.onthehub.com/WebStore/Account/VerifyEmailDomain.aspx
+ 
+Promo code para professores, 12 meses:
+https://ibm.onthehub.com/WebStore/OfferingDetails.aspx?o=b46379bb-0463-e611-9420-b8ca3a5db7a1
+ 
+Promo code para estudante, 6 meses:
+https://ibm.onthehub.com/WebStore/OfferingDetails.aspx?o=bb3528b7-2b63-e611-9420-b8ca3a5db7a1
+ 
+Portal para cursos gratuitos com certificado (em inglês), para professores e
+alunos: https://cognitiveclass.ai/
+https://cognitiveclass.ai/learn/blockchain-for-developers/
+
+Portal DigitalEdu (em português)
+https://www.research.ibm.com/university/br-pt/index.html
+
+Chatboot https://cognitiveclass.ai/courses/how-to-build-a-chatbot/
+
+DeveloperWorks (alunos, professores e profissionais de TI)
+https://www.ibm.com/developerworks/br/ https://www.ibm.com/developerworks
+ 
+IBM Redbooks http://www.redbooks.ibm.com/
+http://www.redbooks.ibm.com/abstracts/redp5388.html?Open
+ 
+IBM TJBOT https://ibmtjbot.github.io/ https://www.research.ibm.com/tjbot/
+
+Bluetalks (meetups, paletras, etc), evento gratuito
+https://www.meetup.com/pt-BR/bluetalks/
+
+Qualquer dúvida por favor entre em contato.
+
+Obrigada, e um abraço,
+__________________________________
+Eliana Basso
+IBM Academic Initiative 
+Program Manager Brazil
+Office: 55-11-2322-6974
+elianab@br.ibm.com
+__________________________________
