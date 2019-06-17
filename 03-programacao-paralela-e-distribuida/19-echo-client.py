@@ -8,6 +8,8 @@ PORT = 20001  # The port used by the server
 name = input("Enter a name: \n")
 running = True
 
+#uma thread que so busca as novas mensagens no chat
+#cada instancia possui um contador de controle para saber quais mensagens ja foram baixadas
 def receiveMessagesThread():
     lastMessage = 0
     while(running):
@@ -23,9 +25,10 @@ def receiveMessagesThread():
             s.close()
             time.sleep(1)
 
-
+#inicializa a thread auxliar que busca mensagens
 start_new_thread(receiveMessagesThread, ())
 
+#loop principal que fica controlando o envio das mensagens de um cliente
 while(running):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         msg = input("Enter a message (type 'exit' to finish):\n")

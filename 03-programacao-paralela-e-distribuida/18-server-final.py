@@ -5,7 +5,8 @@ from array import array
 
 print_lock = threading.Lock() 
 
-# thread fuction 
+# thread que fica responsavel por esperar o dado do cliente
+# separado em um thread para nao ser bloqueante na conexao de outros clientes 
 def threaded(c): 
     while True: 
         # data received from client 
@@ -17,29 +18,26 @@ def threaded(c):
         
         string = "empty"
         receivedString = data.decode('utf-8')
+
+        #se for uma mensagem especifica para retonar as mensagens
         if( receivedString.find("getMessages()") != -1):
             parts = receivedString.split(":")
             lastMessage = int(parts[1])
             string = getMessages(lastMessage)
+        #senao eh uma mensagem comum que deve ser armazenada para ficar disponivel para os demais clientes
         else:
             messages.append(receivedString)
         data = bytes(string, 'utf-8')
-        # send back reversed string to client 
         c.send(data) 
     # connection closed 
     c.close() 
 
 def Main():
-    host = "" 
-    #host = "10.199.35.238" 
-    # reverse a port on your computer 
-    # in our case it is 12345 but it 
-    # can be anything 
+    host = "127.0.0.1" 
     port = 20001
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     s.bind((host, port)) 
     print("socket binded to post", port) 
-    # put the socket into listening mode 
     s.listen(5) 
     print("socket is listening") 
     # a forever loop until client wants to exit 
@@ -55,6 +53,7 @@ def Main():
 
 messages = []
 def getMessages(lastMessage):
+    #se a ultima mensagem do client eh a ultima mensagem no server entao retorna a string "empty" para client ter esse controle
     if(len(messages) <= (lastMessage) ):
         return "empty"
     return messages[lastMessage]
