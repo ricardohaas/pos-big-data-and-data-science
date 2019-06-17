@@ -55,12 +55,9 @@ def Main():
 
 messages = []
 def getMessages(lastMessage):
-    print(len(messages))
-    print(lastMessage)
     if(len(messages) <= (lastMessage) ):
         return "empty"
-    return "Ryan:"+ str(lastMessage)
+    return messages[lastMessage]
 
 if __name__ == '__main__': 
-
     Main() 
