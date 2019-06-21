@@ -23,6 +23,6 @@ if __name__ == "__main__":
     database = FakeDatabase()
     logging.info("Testing update. Starting value is %d.", database.value)
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-        for index in range(2):
+        for index in range(10):
             executor.submit(database.update, index)
     logging.info("Testing update. Ending value is %d.", database.value)

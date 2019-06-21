@@ -15,7 +15,8 @@ class BarberShop:
 	def __init__(self, barber, numberOfSeats):
 		self.barber = barber
 		self.numberOfSeats = numberOfSeats
-		print 'BarberShop initilized with {0} seats'.format(numberOfSeats)
+
+        print 'BarberShop initilized with {0} seats'.format(numberOfSeats)
 		print 'Customer min interval {0}'.format(customerIntervalMin)
 		print 'Custoxmer max interval {0}'.format(customerIntervalMax)
 		print 'Haircut min duration {0}'.format(haircutDurationMin)
